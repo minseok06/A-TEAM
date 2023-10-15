@@ -1,0 +1,121 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은 고딕";
+    color: #fff;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+body{
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+header{
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5);
+}
+header:hover{
+    background: #fff;
+}
+header:hover a{
+    color: #333;
+}
+.logo{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 10%;
+}
+.logo>a{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.menu{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+}
+.navi{
+    margin-top: 23px;
+    width: 540px;
+}
+.navi>li{
+    float: left;
+}
+.navi>li>a{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+.navi>li>a:hover{
+    background: rgb(226, 97, 37);
+    color: white;
+    font-weight: bold;
+    transform: translateY(-10px);
+    transition: all 0.5s;
+}
+.submenu{
+    width: 180px;
+    height: 120px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    background: purple;
+}
+.submenu>li>a{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.submenu>li>a:hover{
+    background: rgb(41, 194, 105);
+}
+video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+article{
+    height: 100vh;
+    background-color: black;
+}
+article>h2{
+    padding-top: 18%;
+    font-size: 54px;
+    text-align: center;
+}
+article:nth-child(4){
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.2),
+        rgba(0, 0, 0, 0.2)
+    ), url("../images/은하수.jpg");
+    background-size: cover;
+    background-position: 100% 70%;
+}
+article:nth-child(3){
+    background: cadetblue;
+}
