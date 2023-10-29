@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.people > p{
+    color: white;
+}
+.quotes1 > p{
+    font-size: 60px;
+    animation: animate 3s;
+}
+@keyframes animate {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.quotes2 > p{
+    font-size: 60px;
+}
+.quotes3 > p{
+    font-size: 60px;
+}
+section{
+    height: 80%;
+}
+.quotes1{
+    background-color: #A0C49D;
+    text-align: center;
+    height: 100%;
+    padding-top: 300px;
+}
+.quotes1 h2{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 100px;
+    color: #553939;
+}
+.quotes2{
+    background-color: #446A46;
+    text-align: center;
+    height: 100%;
+    padding-top: 300px;
+}
+.quotes2 h2{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 100px;
+    color: #c8b6a6;
+}
+.quotes3{
+    background-color: #243D25;
+    text-align: center;
+    height: 100%;
+    padding-top: 300px;
+}
+.quotes3 h2{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 100px;
+    color: #c8b6a6;
+}
