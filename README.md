@@ -1,4 +1,2 @@
-## 호진,솔지가 버튼 제목이랑 index를 깃허브 올려서 여기다 보내면 내가 합친다
-호진: 홈 동영상 아래로 스크롤시 명언 나오면서 맨아래로 사이트 소개
-솔지: 페이지를 스크롤하면서 전환되게도 하고 네비로 특정 페이지 이동
-민석: 1학년 따르기
+![image](https://github.com/minseok06/A-TEAM/assets/121544294/7d044f73-c6d9-4fd1-a1ef-a37506df8c9f)
+![image](https://github.com/minseok06/A-TEAM/assets/121544294/1e84b849-19ff-4943-bf0c-ea4cf50a0449)
